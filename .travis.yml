@@ -1,3 +1,9 @@
 language: go
 go: "1.14.1"
 install: true
+notifications:
+  email:
+    recipients:
+      - lhj2020@aliyun.com
+    on_success: change
+    on_failure: always
